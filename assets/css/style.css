@@ -9,12 +9,7 @@ body {
 .label {
     background-color: #4aaaa5;
     color: #ffffff;
-    float: left;
-    padding-bottom: 10;
-}
-
-nav {
-    padding: 29px 0px;
+    padding: 10px;
 }
 
 a {
@@ -30,7 +25,6 @@ a {
 }
 
 h1 {
-    padding: 20px 0px;
     color: #4aaaa5;
     margin: 0;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -42,29 +36,9 @@ header {
     border-bottom: 4px solid #cccccc;
 }
 
-div {
-    width: 960px;
-    margin: auto;
-}
-
-section {
-    width: 880px;
-    clear: both;
-    margin: 20px auto 40px;
-    text-align: left;
+.container {
     background-color: #ffffff;
-    padding: 20px 40px;
-    min-height: calc(100vh - 40px);
-    overflow: auto;
-}
-
-article {
-    align-content: center;
-    text-align: justify;
-    border-top: 3px solid #dddddd;
-    padding-top: 20px;
-    margin: 0;
-    font-size: 18px;
+    min-height:80vh;
 }
 
 #name {
@@ -118,13 +92,4 @@ p.label {
     padding: 20px 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-}
-
-footer {
-    background-color: #666666;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
-    width: 100%;
-    padding-top: 20px;
-    height: 40px;
 }
