@@ -24,44 +24,46 @@
     </nav>
   </header>
 
-  <section class="container">
+  <section class="container p-sm-5">
 
-    <div class="row">
+    <div class="row pb-sm-3">
       <h2>Contact</h2>
     </div>
-
-    <article class="container">
-      <form action="action_page.php">
-        <div class="row">
-          <div class="col">
-            <form action="action_page.php">
-              <label for="fname">Name</label>
-              <br>
-              <input type="text" id="name" name="Name" placeholder="Your name..">
-              <br>
-          </div>
+    <form action="action_page.php">
+      <div class="row  pb-sm-4">
+        <div class="col">
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Name</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+              </div>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col">
-            <label for="email">Email</label>
-            <br>
-            <input type="text" id="email" name="email" placeholder="Your email..">
-            <br>
-          </div>
+      <div class="row pb-sm-4">
+        <div class="col">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col">
-            <label for="subject">Message</label>
-            <br>
-            <textarea id="message" name="message" placeholder="Write your message here.."></textarea>
-            <br>
-            <input id="submit" type="submit" value="Submit">
-          </div>
+      <div class="row pb-sm-4">
+        <div class="col">
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Write your message here:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
         </div>
-      </form>
-    </article>
+      </div>
+
+      <div class="row pb-sm-4">
+        <div class="col">
+          <button class="btn btn-light" type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
   </section>
 
   <footer>
